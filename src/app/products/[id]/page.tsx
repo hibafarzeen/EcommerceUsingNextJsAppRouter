@@ -1,5 +1,5 @@
-import { getProductById } from "c:/Users/india/Downloads/assignment_1/assignment_1/ecommerce-next-app/src/app/services/productServices";
-import AddToCartButton from "c:/Users/india/Downloads/assignment_1/assignment_1/ecommerce-next-app/src/app/components/AddToCartButton/AddToCartButton";
+import { getProductById } from "../../services/productServices";
+import AddToCartButton from "../../components/AddToCartButton/AddToCartButton";
 
 interface ProductDetailProps {
   params: Promise<{

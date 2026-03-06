@@ -1,6 +1,6 @@
 "use client";
 
-import { useCart } from "../../context/CartContext";
+import { useCart } from "@/app/context/CartContext";
 import { useRouter } from "next/navigation";
 
 interface Product {

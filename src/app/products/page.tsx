@@ -1,6 +1,6 @@
 export const dynamic = "force-dynamic";
-import { getAllProducts } from "c:/Users/india/Downloads/assignment_1/assignment_1/ecommerce-next-app/src/app/services/productServices";
-import ProductCard from "c:/Users/india/Downloads/assignment_1/assignment_1/ecommerce-next-app/src/app/components/ProductCard/ProductCard";
+import { getAllProducts } from "../services/productServices";
+import ProductCard from "../components/ProductCard/ProductCard";
 
 export default async function ProductsPage() {
   const products = await getAllProducts();
